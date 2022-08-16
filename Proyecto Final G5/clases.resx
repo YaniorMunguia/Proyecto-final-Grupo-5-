@@ -1,0 +1,191 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<root>
+  <!-- 
+    Microsoft ResX Schema 
+    
+    Version 2.0
+    
+    The primary goals of this format is to allow a simple XML format 
+    that is mostly human readable. The generation and parsing of the 
+    various data types are done through the TypeConverter classes 
+    associated with the data types.
+    
+    Example:
+    
+    ... ado.net/XML headers & schema ...
+    <resheader name="resmimetype">text/microsoft-resx</resheader>
+    <resheader name="version">2.0</resheader>
+    <resheader name="reader">System.Resources.ResXResourceReader, System.Windows.Forms, ...</resheader>
+    <resheader name="writer">System.Resources.ResXResourceWriter, System.Windows.Forms, ...</resheader>
+    <data name="Name1"><value>this is my long string</value><comment>this is a comment</comment></data>
+    <data name="Color1" type="System.Drawing.Color, System.Drawing">Blue</data>
+    <data name="Bitmap1" mimetype="application/x-microsoft.net.object.binary.base64">
+        <value>[base64 mime encoded serialized .NET Framework object]</value>
+    </data>
+    <data name="Icon1" type="System.Drawing.Icon, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
+        <value>[base64 mime encoded string representing a byte array form of the .NET Framework object]</value>
+        <comment>This is a comment</comment>
+    </data>
+                
+    There are any number of "resheader" rows that contain simple 
+    name/value pairs.
+    
+    Each data row contains a name, and value. The row also contains a 
+    type or mimetype. Type corresponds to a .NET class that support 
+    text/value conversion through the TypeConverter architecture. 
+    Classes that don't support this are serialized and stored with the 
+    mimetype set.
+    
+    The mimetype is used for serialized objects, and tells the 
+    ResXResourceReader how to depersist the object. This is currently not 
+    extensible. For a given mimetype the value must be set accordingly:
+    
+    Note - application/x-microsoft.net.object.binary.base64 is the format 
+    that the ResXResourceWriter will generate, however the reader can 
+    read any of the formats listed below.
+    
+    mimetype: application/x-microsoft.net.object.binary.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Binary.BinaryFormatter
+            : and then encoded with base64 encoding.
+    
+    mimetype: application/x-microsoft.net.object.soap.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Soap.SoapFormatter
+            : and then encoded with base64 encoding.
+
+    mimetype: application/x-microsoft.net.object.bytearray.base64
+    value   : The object must be serialized into a byte array 
+            : using a System.ComponentModel.TypeConverter
+            : and then encoded with base64 encoding.
+    -->
+  <xsd:schema id="root" xmlns="" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata">
+    <xsd:import namespace="http://www.w3.org/XML/1998/namespace" />
+    <xsd:element name="root" msdata:IsDataSet="true">
+      <xsd:complexType>
+        <xsd:choice maxOccurs="unbounded">
+          <xsd:element name="metadata">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" />
+              </xsd:sequence>
+              <xsd:attribute name="name" use="required" type="xsd:string" />
+              <xsd:attribute name="type" type="xsd:string" />
+              <xsd:attribute name="mimetype" type="xsd:string" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="assembly">
+            <xsd:complexType>
+              <xsd:attribute name="alias" type="xsd:string" />
+              <xsd:attribute name="name" type="xsd:string" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="data">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+                <xsd:element name="comment" type="xsd:string" minOccurs="0" msdata:Ordinal="2" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" msdata:Ordinal="1" />
+              <xsd:attribute name="type" type="xsd:string" msdata:Ordinal="3" />
+              <xsd:attribute name="mimetype" type="xsd:string" msdata:Ordinal="4" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="resheader">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" />
+            </xsd:complexType>
+          </xsd:element>
+        </xsd:choice>
+      </xsd:complexType>
+    </xsd:element>
+  </xsd:schema>
+  <resheader name="resmimetype">
+    <value>text/microsoft-resx</value>
+  </resheader>
+  <resheader name="version">
+    <value>2.0</value>
+  </resheader>
+  <resheader name="reader">
+    <value>System.Resources.ResXResourceReader, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <resheader name="writer">
+    <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <data name="label4.Text" xml:space="preserve">
+    <value>Esta clase o programa esta hecho para aquellas personas que se acaba de inscribir al Gimnasio 
+y es su primera vez en uno, se les recomienda el siguiente esquema.
+El esquema quedaría así:
+Lunes: torso
+Martes: pierna
+Miércoles: descanso
+Jueves: torso
+Viernes: pierna
+Sábado y domingo: descanso
+</value>
+  </data>
+  <data name="label5.Text" xml:space="preserve">
+    <value>Si llevas de 6 meses a 2 años yendo a un gimnasio ya estas en el nivel intermedio, tenemos 
+un plan de acuerdo a que resultados quieras tener, tambien contamos con acesoramiento 
+profesional, para que si puedas ver los cambios en mejor tiempo.
+
+.
+</value>
+  </data>
+  <data name="label6.Text" xml:space="preserve">
+    <value>Tambien tenemos un plan para las personas que ya llevan mas de 2 años asistiendo al gimnasio, 
+ademas de contar con personas expertas que te pueden ayudar con la alimentacion, tambien 
+se cuenta con la maquinaria adecuada para cualquier ejercicio, aqui unas recomendaciones;
+Las mejores combinaciones de grupos musculares:
+Lunes: pecho, hombros y tríceps.
+Miércoles: espalda, bíceps y abdominales.
+Viernes: femoral o isquiotibiales, cuádriceps y gemelos.</value>
+  </data>
+  <assembly alias="System.Drawing" name="System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" />
+  <data name="$this.Icon" type="System.Drawing.Icon, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
+    <value>
+        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
+        v/8AxAEeKOKckyEAAAAASUVORK5CYII=
+</value>
+  </data>
+</root>
